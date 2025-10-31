@@ -20,20 +20,20 @@ Identify key behavioral trends from Fitbit smart device data analysis to provide
 
 ### Project Structure
 Bellabeat's_Device_Consumer_Behaviour_Analysis/
-|---------------------------------------------------------------------------------------|
-├── data/                 # Raw and processed datasets                                  |
-├── scripts/              # R scripts for cleaning, feature engineering, and plotting   |
-│   ├── 01_data_cleaning.R                                                              |
-│   ├── 02_feature_engineering.R                                                        |
-│   ├── 03_visualization.R                                                              |
-├── results/              # Visual outputs and summary tables                           |
-│   └── figures/                                                                        |
-├── reports/                                                                            |
-│   ├── Bellabeat_Report.Rmd                                                            |
-│   ├── Bellabeat_Report.html                                                           |
-├── README.md                                                                           |
-├──.gitignore                                                                           |
-|---------------------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------------------------|
+    ├── data/                        # Raw and processed datasets                                 |
+    ├── scripts/                     # R scripts for cleaning, feature engineering, and plotting  |
+    ├── 01_data_cleaning.R                                                                        |
+    ├── 02_feature_engineering.R                                                                  |
+    ├── 03_visualization.R                                                                        |
+    ├── results/                     # Visual outputs and summary tables                          |
+    └── figures/                                                                                  |
+    ├── reports/                                                                                  |
+    ├── Bellabeat_Report.Rmd                                                                      |
+    ├── Bellabeat_Report.html                                                                     |
+    ├── README.md                                                                                 |
+    ├──.gitignore                                                                                 |
+                                                                                        
 
 ### Key Analyses
 •	User Activity Trends: Daily and weekly activity frequency
