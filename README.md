@@ -1,5 +1,4 @@
 # Bellabeat-Device-Consumer-Behaviour-Analysis
-Consumer Behaviour Analysis Using Fitbit Data from the Bellabeat Case Study.
 #### Author: Christopher Edozie Sunday
 #### Language: R | RMarkdown | ggplot2 | dplyr | tidyr
 #### Project Type: Data Analytics & Visualization
@@ -8,7 +7,7 @@ Consumer Behaviour Analysis Using Fitbit Data from the Bellabeat Case Study.
 #### Status: Completed
 
 ### Project Overview
-This project analyzes Fitbit smart device usage data to identitify wellness behaviour patterns among its users. The goal is to uncover trends that can **guide Bellabeat’s marketing strategies and engagement models ** for its products (focusing on  Bellabeat Time Smartwatch in this profject). The project is part of the Google Data Analytics Capstone context, extended for open-source demonstration and portfolio building.
+This project analyzes Fitbit smart device usage data to identitify wellness behaviour patterns among its users. The goal is to uncover trends that can **guide Bellabeat’s marketing strategies and engagement models ** for its products (focusing on  Bellabeat Time Smartwatch). This project is part of the Google Data Analytics Capstone context, extended for open-source demonstration and portfolio building.
 
 ### Business Task
 Identify key behavioral trends from Fitbit smart device data analysis to provide actionable insights that can guide Bellabeat’s marketing strategies, enhance user personalization, and support sustainable business growth.
