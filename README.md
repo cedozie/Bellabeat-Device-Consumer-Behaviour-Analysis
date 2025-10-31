@@ -19,8 +19,8 @@ Identify key behavioral trends from Fitbit smart device data analysis to provide
 - Provide **data storytelling** insights that connect user habits to product positioning.
 
 ### Project Structure
-
 Bellabeat's_Device_Consumer_Behaviour_Analysis/
+
     ├── **data**/                    # Raw datasets                                                
     ├── **scripts**/                 # R scripts for cleaning, feature engineering, and plotting   
     ├── 01_data_cleaning.R                                                                         
