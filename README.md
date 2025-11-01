@@ -19,21 +19,27 @@ Identify key behavioral trends from Fitbit smart device data analysis to provide
 - Provide **data storytelling** insights that connect user habits to product positioning.
 
 ### Project Structure
-Bellabeat's_Device_Consumer_Behaviour_Analysis/
-
-    ├── **data**/                    # Raw datasets                                                
-    ├── **scripts**/                 # R scripts for cleaning, feature engineering, and plotting   
-    ├── 01_data_cleaning.R                                                                         
-    ├── 02_feature_engineering.R                                                                   
-    ├── 03_visualization.R                                                                         
-    ├── **results**/                 # Visual outputs and summary tables                           
-    ├── figures                                                                                    
-    ├── **reports**/                                                                               
-    ├── Bellabeat_Report.Rmd                                                                       
-    ├── Bellabeat_Report.html                                                                      
-    ├── **README.md**/                                                                             
-    ├──.gitignore/                                                                                 
-                                                                                        
+                                                          
+Bellabeat's-Device-Consumer-Behaviour-Analysis/           
+│                                                         
+├── README.md                                             
+├── data/                                                 
+│   └── raw_fitbit_data.csv                               
+│                                                         
+├── scripts/                                              
+│   ├── 01_data_cleaning.R                                
+│   ├── 02_data_transformation.R                          
+│   └── 03_visualizations.R                               
+│                                                         
+├── outputs/                                              
+│   ├── Weekly_Active_Users_Patterns_by_Day.png           
+│   └── Other_Visualizations.png                          
+│                                                         
+├── reports/                                              
+│   └── Bellabeat_Analysis_Report.Rmd                     
+│                                                         
+└── Bellabeat's-Device-Consumer-Behaviour-Analysis.Rproj  
+                                                          
 ### Key Analyses
 •	User Activity Trends: Daily and weekly activity frequency
 •	Sleep Patterns: Sleep duration and efficiency correlations
@@ -59,39 +65,39 @@ Bellabeat's_Device_Consumer_Behaviour_Analysis/
 > **Insight:** Activity fluctuates weekly, it peaks mostly on weekends — campaigns should target low-activity periods (midweek when activity dips) with motivational prompts.
 
 ### 2. Average Daily Steps by Weekdays
-<img src="images/activity_trends.png" width="700">
+<img src="Average_Daily_Steps_by_Weekdays.png" width="700">
 > **Insight:** Users show fluctuations in activity patterns over weekdays, often peaking on weekends — campaigns should Promote Bellabeat Time features (e.g., step reminders) during low-activity periods to re-engage users
 
 ### 3. Steps, Sleep, and Energy Burn Balance
-<img src="images/activity_trends.png" width="700">
+<img src="Steps_Sleep_and_Energy_Burn_Balance.png" width="700">
 > **Insight:** User clusters reveal **distinct personas** — target high performers with performance analytics, and low performers with habit-building programs.
 
 ### 4. Calories Burned vs Steps Taken
-<img src="images/activity_trends.png" width="700">
+<img src="Calories_Burned_vs_Steps_Taken.png" width="700">
 > **Insight:** Reveals linear relationship between steps taken and calories burned, physical activity directly translates to calorie expenditure — promote Bellabeat’s data accuracy in tracking fitness goals and encourage users to meet step targets.
 
 ### 5. Activity Levels by Gender and Age Group
-<img src="images/activity_trends.png" width="700">
+<img src="Activity_Levels_by_Gender_and_Age_Group.png" width="700">
 > **Insight:** Younger users generally walk more, while older groups show steadier habits — target younger users with “performance and tracking” campaigns,  older ones with “balance and wellness” messaging.
 
 ### 6. BMI Composition by Activity Level, Gender, and Age Group
-<img src="images/activity_trends.png" width="700">
+<img src="BMI_Composition_by_Activity_Level_Gender_and_Age_Group.png" width="700">
 > **Insight:** Shows proportion of overweight users in sedentary groups — campaigns should promote heart-friendly activity challenges for overweight users.
 
 ### 7. Sleep Efficiency Distribution by Gender
-<img src="images/activity_trends.png" width="700">
+<img src="Sleep_Efficiency_Distribution_by_Gender.png" width="700">
 > **Insight:** Compares recovery quality across genders — a strong wellness differentiator — campaigns should frame Bellabeat Time as a personalized wellness and recovery assistant, focusing on holistic recovery and mindfulness.
 
 ### 8. Sleep Duration by Weekdays
-<img src="images/activity_trends.png" width="700">
+<img src="Sleep_Duration_by_Weekdays.png" width="700">
 > **Insight:** Users generally have higher sleep hours during weekends — position Bellabeat Time as a sleep-aware assistant to help balance performance with rest.
 
 ### 9. Steps-HeartRate-Calorie-BMI Interaction Map
-<img src="images/activity_trends.png" width="700">
+<img src="Steps_HeartRate_Calorie_BMI_Interaction_Map.png" width="700">
 > **Insight:** Shows distinct clusters of “performance-driven” vs. “wellness-oriented” users — campaigns should personalize smartwatch content for: (i) High intensity users - emphasizing more on performance tracking, and (ii) Low activity users - promoting habit formation and mindfulness 
 
 ### 10. Correlation Matrix of Fitbit Metrics
-<img src="images/activity_trends.png" width="700">
+<img src="Correlation_Matrix_of_Fitbit_Metrics.png" width="700">
 > **Insight:** Reveal which Fitbit metrics are most strongly correlated, and the interdependencies of steps ↔ calories ↔ active minutes — campaigns should highlight the integrated nature of Bellabeat tracking — how improved activity affects sleep, calorie burn, and stress levels.
 
 ### Insights Summary
