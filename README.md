@@ -123,7 +123,7 @@ Bellabeat's-Device-Consumer-Behaviour-Analysis/
 
 ### How to Reproduce
 1.	Clone this repository:
-git clone https://github.com/cedozie / Bellabeat’s_Device_Consumer_Behaviour_Analysis.git
+git clone https://github.com/cedozie/Bellabeat’s_Device_Consumer_Behaviour_Analysis.git
 2.	Open the R project or RMarkdown file in RStudio.
 3.	Install required packages:
 install.packages(c("tidyverse", "lubridate", "ggplot2", "readr", "knitr"))
