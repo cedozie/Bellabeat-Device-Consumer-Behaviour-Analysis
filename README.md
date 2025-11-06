@@ -121,6 +121,12 @@ Insight: Reveal which Fitbit metrics are most strongly correlated, and the inter
     | **Weight Management**       | Use BMI trends to target campaigns focused on fitness goals.         |
     | **Sleep & Recovery**        | Emphasize wellness balance and stress recovery features.             |
 
+### Next Step
+- Deploy automated weekly insights dashboard using R Markdown or Tableau Public integration.
+
+### Conclusion
+This data-driven analysis has provided Bellabeat with a clear, evidence-backed marketing strategy for Time smartwatch. By understanding users’ lifestyle patterns and emotional motivators, Bellabeat can strengthen its market leadership in women’s wellness technology through empathetic, personalized, and data-guided engagement.
+
 ### Analytical Tools & Packages
 - R Programming: Data cleaning, transformation, visualization, data wrangling, storytelling
 - Packages: `tidyverse`, `ggplot2`, `scales`, `RColorBrewer`, `lubridate`, `dplyr`, `knitr`, `viridis`, `corrplot`, `reshape2`, `janitor`, `cluster`, `janitor`, `skimr`, `patchwork`, `factoextra`,  `flextable`, `ggridges` 
