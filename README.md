@@ -3,7 +3,7 @@
 #### Language: R | RMarkdown | ggplot2 | dplyr | tidyr
 #### Project Type: Data Analytics & Visualization
 #### Stakeholders: Bellabeat Executive Team (CEO, CCO, Marketing Directors).
-#### Keywords: Fitbit, Bellabeat, Smart Device, Data Visualization, R Programming
+#### Keywords: Fitbit Data, Bellabeat, Data Visualization, R Programming
 #### Status: Completed
 
 ### Project Overview
@@ -18,30 +18,33 @@ Identify key behavioral trends from Fitbit smart device data analysis to provide
 - Discover **time-based and lifestyle trends** that can drive marketing campaigns.  
 - Provide **data storytelling** insights that connect user habits to product positioning.
 
-### Project Structure
-                                                                    
-    Bellabeat-Device-Consumer-Behaviour-Analysis/                    
-    │                                                                
-    ├── README.md                                                    
-    ├── data/                                                        
-    │   └── Fitbit_Raw_Data.csv                                      
-    │                                                                
-    ├── scripts/                                                     
-    │   ├── 01_data_cleaning.R                                       
-    │   ├── 02_data_transformation.R                                 
-    │   └── 03_visualizations.R                                      
-    │                                                                
-    ├── outputs/                                                     
-    │   ├── Weekly_Active_Users_Patterns_by_Day.png                  
-    │   └── Other_Visualizations.png                                 
-    │                                                                
-    ├── reports/                                                     
-    │   └── Bellabeat_Device_Consumer_Behaviour_Analysis_Report.Rmd  
-    │   └── Bellabeat_Device_Consumer_Behaviour_Analysis_Report.html 
-    │                                                                
-    ├── Project_Description_(Bellabeat_Device_Analysis).html         
-    ├── Business_Task_Statement_(Bellabeat_Device_Analysis).html     
-    └── Scope_of_Work_(Bellabeat_Device_Analysis.html                
+### Project Folder Structure                
+
+    Bellabeat-Device-Consumer-Behaviour-Analysis/
+    │
+    ├── data/                           # Raw Fitbit datasets
+    │   ├── daily_activity.csv
+    │   ├── sleep_day.csv
+    │   ├── weight_log.csv
+    │   └── heartrate_seconds.csv
+    │
+    ├── scripts/                        # R scripts for data cleaning, analysis, and visualization
+    │   ├── 01_data_cleaning.R
+    │   ├── 02_exploratory_analysis.R
+    │   └── 03_visualization_plots.R
+    │
+    ├── reports/                        # Project reports and outputs
+    │   ├── Bellabeat_Device_Consumer_Behaviour_Analysis_Report.Rmd
+    │   └── Bellabeat_Device_Consumer_Behaviour_Analysis_Report.html
+    │
+    ├── figures/                        # Exported graphs and plots
+    │   ├── Weekly_Active_Users_Patterns_by_Day.png
+    │   ├── Calories_Burned_vs_Steps_Taken.png
+    │   └── Activity_Levels_by_Gender_and_Age_Group.png
+    │   └── Other_Visualizations.png 
+    │
+    ├── README.md                       # Project overview and documentation
+    └── .gitignore                      # Files and folders ignored by Git
                                                                      
 ### Key Analyses
 - User Activity Trends: Daily and weekly activity frequency
@@ -51,16 +54,16 @@ Identify key behavioral trends from Fitbit smart device data analysis to provide
 - Demographics: Probabilistic age and gender distributions
 
 ### Data Features Used
-| Variable          | Description                                                          |
-|-------------------|----------------------------------------------------------------------|
-| `date`            | Daily tracking date                                                  |
-| `daily_avg_steps` | User’s average daily step count                                      |
-| `calories`        | Daily calories burned                                                |
-| `sleep_hours`     | Sleep duration per day                                               |
-| `heartrate`       | Heart rate (bpm)                                                     |
-| `activity_level`  | Categorized into “Highly Active”, “Moderately Active”, or “Sedentary”|
-| `bmi_category`    | Classified as “Underweight”, “Normal”, “Overweight”, or “Obese”      |
-| `heart_rate_level`| Labeled as “Resting”, “Normal”, “Fat Burn”, or “Cardio”              |
+    | Variable          | Description                                                          |
+    |-------------------|----------------------------------------------------------------------|
+    | `date`            | Daily tracking date                                                  |
+    | `daily_avg_steps` | User’s average daily step count                                      |
+    | `calories`        | Daily calories burned                                                |
+    | `sleep_hours`     | Sleep duration per day                                               |
+    | `heartrate`       | Heart rate (bpm)                                                     |
+    | `activity_level`  | Categorized into “Highly Active”, “Moderately Active”, or “Sedentary”|
+    | `bmi_category`    | Classified as “Underweight”, “Normal”, “Overweight”, or “Obese”      |
+    | `heart_rate_level`| Labeled as “Resting”, “Normal”, “Fat Burn”, or “Cardio”              |
 
 ### Key Visualizations
 ### 1️. Weekly Active Users Patterns by Day
@@ -110,13 +113,13 @@ Insight: Reveal which Fitbit metrics are most strongly correlated, and the inter
 - Behavioural segmentation suggests opportunities for personalized recommendations via the Bellabeat app.
 
 ### Insight-driven Marketing Strategies
-| Theme                       | Marketing Opportunity                                                |
-|-----------------------------|----------------------------------------------------------------------|
-| **Engagement Cycles**       | Launch in-app activity challenges during low-activity months.        |
-| **Moderately Active Users** | Offer step milestone rewards and personalized coaching notifications.|
-| **Heart Rate Awareness**    | Promote heart-health insights and cardio zone tracking.              |
-| **Weight Management**       | Use BMI trends to target campaigns focused on fitness goals.         |
-| **Sleep & Recovery**        | Emphasize wellness balance and stress recovery features.             |
+    | Theme                       | Marketing Opportunity                                                |
+    |-----------------------------|----------------------------------------------------------------------|
+    | **Engagement Cycles**       | Launch in-app activity challenges during low-activity months.        |
+    | **Moderately Active Users** | Offer step milestone rewards and personalized coaching notifications.|
+    | **Heart Rate Awareness**    | Promote heart-health insights and cardio zone tracking.              |
+    | **Weight Management**       | Use BMI trends to target campaigns focused on fitness goals.         |
+    | **Sleep & Recovery**        | Emphasize wellness balance and stress recovery features.             |
 
 ### Analytical Tools & Packages
 - R Programming: Data cleaning, transformation, visualization, data wrangling, storytelling
@@ -124,13 +127,20 @@ Insight: Reveal which Fitbit metrics are most strongly correlated, and the inter
 - RMarkdown: Reproducible reporting and HTML documentation
 - Git & GitHub: Version control and project collaboration
 
-### How to Reproduce
-1.	Clone this repository:
-    git clone https://github.com/cedozie/Bellabeat_Device_Consumer_Behaviour_Analysis.git
-3.	Open the R project or RMarkdown file in RStudio.
-4.	Install required packages:
+### How to View the Full Report
+1.	View the full report by opening the following link in any browser:
+    https://cedozie.github.io/Bellabeat-Device-Consumer-Behaviour-Analysis/Bellabeat_Device_Consumer_Behaviour_Analysis_Report.html
+2.	Or open the RMarkdown file in RStudio.
+3.	Install required packages:
     install.packages(c("tidyverse", "lubridate", "ggplot2", "readr", "knitr"))
-5.	Knit the .Rmd file to generate the HTML report.
+4.	Knit the .Rmd file to generate the HTML report.
+
+### Skills Demonstrated
+- Data cleaning and transformation with dplyr
+- Data visualization with ggplot2
+- R Markdown report
+- Analytical storytelling for business decision support
+- Version control and project publishing with Git/GitHub
 
 ### License
 This project is licensed under the MIT License.
