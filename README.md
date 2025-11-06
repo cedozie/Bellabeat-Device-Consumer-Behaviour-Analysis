@@ -160,4 +160,5 @@ Inspiration: Bellabeat Case Study – Google Data Analytics Capstone Project.
 - Data Analyst | Scientific Researcher
 - Canada  
 - [LinkedIn Profile](https://www.linkedin.com/in/c-sunday/)  
-- “Empowering data storytelling that drives smarter health tech marketing decisions.”  
+
+*Empowering data storytelling that drives smarter health tech marketing decisions*
