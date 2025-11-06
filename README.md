@@ -157,8 +157,10 @@ Inspiration: Bellabeat Case Study – Google Data Analytics Capstone Project.
 
 ### Author Details
 - #### Christopher Edozie Sunday, Ph.D. 
-- Data Analyst | Scientific Researcher
-- Canada  
-- [LinkedIn Profile](https://www.linkedin.com/in/c-sunday/)  
+- Data Analyst | Scientific Researcher 
+- LinkedIn Profile: https://www.linkedin.com/in/c-sunday/
+- GitHub Portfolio: https://github.com/cedozie
+- Email: c.edozie.sunday@gmail.com
+- Canada 
 
 *Empowering data storytelling that drives smarter health tech marketing decisions*
