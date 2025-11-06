@@ -1,9 +1,9 @@
 # Bellabeat-Device-Consumer-Behaviour-Analysis
 #### Author: Christopher Edozie Sunday
-#### Language: R | RMarkdown | ggplot2 | dplyr | tidyr
+#### Tech Stack: R (tidyverse, ggplot2, dplyr) | R Markdown | GitHub Pages
 #### Project Type: Data Analytics & Visualization
 #### Stakeholders: Bellabeat Executive Team (CEO, CCO, Marketing Directors).
-#### Keywords: Fitbit Data, Bellabeat, Data Visualization, R Programming
+#### Keywords: Data cleaning, R Programming, data storytelling, Fitbit dataset, Bellabeat case study, data-driven insights
 #### Status: Completed
 
 ### Project Overview
@@ -139,6 +139,7 @@ Insight: Reveal which Fitbit metrics are most strongly correlated, and the inter
 - Data cleaning and transformation with dplyr
 - Data visualization with ggplot2
 - R Markdown report
+- Interactive HTML report with visualizations and business insights
 - Analytical storytelling for business decision support
 - Version control and project publishing with Git/GitHub
 
