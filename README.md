@@ -114,11 +114,11 @@ Insight: Reveal which Fitbit metrics are most strongly correlated, and the inter
 ### Insight-driven Marketing Strategies
     | Theme                       | Marketing Opportunity                                                |
     |-----------------------------|----------------------------------------------------------------------|
-    | **Engagement Cycles**       | Launch in-app activity challenges during low-activity months.        |
-    | **Moderately Active Users** | Offer step milestone rewards and personalized coaching notifications.|
-    | **Heart Rate Awareness**    | Promote heart-health insights and cardio zone tracking.              |
-    | **Weight Management**       | Use BMI trends to target campaigns focused on fitness goals.         |
-    | **Sleep & Recovery**        | Emphasize wellness balance and stress recovery features.             |
+    | Engagement Cycles           | Launch in-app activity challenges during low-activity months.        |
+    | Moderately Active Users     | Offer step milestone rewards and personalized coaching notifications.|
+    | Heart Rate Awareness        | Promote heart-health insights and cardio zone tracking.              |
+    | Weight Management           | Use BMI trends to target campaigns focused on fitness goals.         |
+    | Sleep & Recovery            | Emphasize wellness balance and stress recovery features.             |
 
 ### Next Step
 - Deploy automated weekly insights dashboard using R Markdown or Tableau Public integration.
