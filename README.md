@@ -33,18 +33,17 @@ Identify key behavioral trends from Fitbit smart device data analysis to provide
     │   ├── 02_exploratory_analysis.R
     │   └── 03_visualization_plots.R
     │
-    ├── reports/                        # Project reports and outputs
+    ├── reports/                        # Project reports
     │   ├── Bellabeat_Device_Consumer_Behaviour_Analysis_Report.Rmd
     │   └── Bellabeat_Device_Consumer_Behaviour_Analysis_Report.html
     │
-    ├── figures/                        # Exported graphs and plots
+    ├── figures/                        # Exported plots
     │   ├── Weekly_Active_Users_Patterns_by_Day.png
     │   ├── Calories_Burned_vs_Steps_Taken.png
     │   └── Activity_Levels_by_Gender_and_Age_Group.png
     │   └── Other_Visualizations.png 
-    │
-    ├── README.md                       # Project overview and documentation
-    └── .gitignore                      # Files and folders ignored by Git
+    │                    
+    └── README.md                   # Project overview and documentation   
                                                                      
 ### Key Analyses
 - User Activity Trends: Daily and weekly activity frequency
