@@ -22,28 +22,30 @@ Identify key behavioral trends from Fitbit smart device data analysis to provide
 
     Bellabeat-Device-Consumer-Behaviour-Analysis/
     │
-    ├── data/                           # Raw Fitbit datasets
+    ├── fitbit_raw_data/               # Raw Fitbit datasets
     │   ├── daily_activity.csv
     │   ├── sleep_day.csv
     │   ├── weight_log.csv
     │   └── heartrate_seconds.csv
     │
-    ├── scripts/                        # R scripts for data cleaning, analysis, and visualization
+    ├── scripts/                       # R scripts for data cleaning, analysis, & visualization
     │   ├── 01_data_cleaning.R
     │   ├── 02_exploratory_analysis.R
     │   └── 03_visualization_plots.R
     │
-    ├── reports/                        # Project reports
+    ├── reports/                       # Project reports
     │   ├── Bellabeat_Device_Consumer_Behaviour_Analysis_Report.Rmd
     │   └── Bellabeat_Device_Consumer_Behaviour_Analysis_Report.html
     │
-    ├── figures/                        # Exported plots
+    ├── figures/                       # Exported plots
     │   ├── Weekly_Active_Users_Patterns_by_Day.png
     │   ├── Calories_Burned_vs_Steps_Taken.png
     │   └── Activity_Levels_by_Gender_and_Age_Group.png
     │   └── Other_Visualizations.png 
-    │                    
-    └── README.md                   # Project overview and documentation   
+    │
+    ├── Cleaned_merged_fitbit_data.csv  # Cleaned & merged fitbit dataset used for the analysis
+    │
+    └── README.md                       # Project overview & documentation   
                                                                      
 ### Key Analyses
 - User Activity Trends: Daily and weekly activity frequency
@@ -128,17 +130,22 @@ This data-driven analysis has provided Bellabeat with a clear, evidence-backed m
 
 ### Analytical Tools & Packages
 - R Programming: Data cleaning, transformation, visualization, data wrangling, storytelling
-- Packages: `tidyverse`, `ggplot2`, `scales`, `RColorBrewer`, `lubridate`, `dplyr`, `knitr`, `viridis`, `corrplot`, `reshape2`, `janitor`, `cluster`, `janitor`, `skimr`, `patchwork`, `factoextra`,  `flextable`, `ggridges` 
+- Packages: `tidyverse`, `ggplot2`, `scales`, `RColorBrewer`, `lubridate`, `dplyr`, `knitr`, `viridis`, `corrplot`, `reshape2`, `janitor`, `cluster`, `janitor`, `skimr`, `patchwork`, `factoextra`, `readr`, `flextable`, `ggridges` 
 - RMarkdown: Reproducible reporting and HTML documentation
 - Git & GitHub: Version control and project collaboration
 
-### How to View the Full Report
-1.	View the full report by opening the following link in any browser:
-    https://cedozie.github.io/Bellabeat-Device-Consumer-Behaviour-Analysis/Bellabeat_Device_Consumer_Behaviour_Analysis_Report.html
-2.	Or open the RMarkdown file in RStudio.
-3.	Install required packages:
-    install.packages(c("tidyverse", "lubridate", "ggplot2", "readr", "knitr"))
-4.	Knit the .Rmd file to generate the HTML report.
+### How to View the Full Report or Run the Analysis
+#### 1. Prerequisite:
+- Install the necessary R packages listed in analytical tools and package section above:
+  install.packages(c("tidyverse", "lubridate", "ggplot2", "....")
+
+#### 2. Run the R Markdown File:
+- Open the Bellabeat_Device_Consumer_Behaviour_Analysis_Report.Rmd file in in RStudio.
+- Knit the .Rmd file to generate the HTML report.
+
+#### 3. View the Final Report:
+- Open the following link in any browser to view the comprehensive analysis report which includes analysis and visualizations, key analytical findings and insights, quantified business value, data-driven marketing recommendations, implementation roadmap, lessons learned, conclusion:
+  https://cedozie.github.io/Bellabeat-Device-Consumer-Behaviour-Analysis/Bellabeat_Device_Consumer_Behaviour_Analysis_Report.html
 
 ### Skills Demonstrated
 - Data cleaning and transformation with dplyr
