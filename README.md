@@ -145,7 +145,7 @@ This data-driven analysis has provided Bellabeat with a clear, evidence-backed m
 
 #### 3. View the Final Report:
 - Open the following link in any browser to view the comprehensive analysis report which includes analysis and visualizations, key analytical findings and insights, quantified business value, data-driven marketing recommendations, implementation roadmap, lessons learned, conclusion:
-    \n https://cedozie.github.io/Bellabeat-Device-Consumer-Behaviour-Analysis/Bellabeat_Device_Consumer_Behaviour_Analysis_Report.html
+    \n https://cedozie.github.io/Bellabeat-Device-Consumer-Behaviour-Analysis/Bellabeat_Device_Consumer_Behaviour_Analysis_Report.html \n
 
 ### Skills Demonstrated
 - Data cleaning and transformation with dplyr
