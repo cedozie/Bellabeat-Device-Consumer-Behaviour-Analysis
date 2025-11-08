@@ -137,7 +137,7 @@ This data-driven analysis has provided Bellabeat with a clear, evidence-backed m
 ### How to View the Full Report or Run the Analysis
 #### 1. Prerequisite:
 - Install the necessary R packages listed in analytical tools and package section above:
-  install.packages(c("tidyverse", "lubridate", "ggplot2", "....")
+    install.packages(c("tidyverse", "lubridate", "ggplot2", "....")
 
 #### 2. Run the R Markdown File:
 - Open the Bellabeat_Device_Consumer_Behaviour_Analysis_Report.Rmd file in in RStudio.
@@ -145,7 +145,7 @@ This data-driven analysis has provided Bellabeat with a clear, evidence-backed m
 
 #### 3. View the Final Report:
 - Open the following link in any browser to view the comprehensive analysis report which includes analysis and visualizations, key analytical findings and insights, quantified business value, data-driven marketing recommendations, implementation roadmap, lessons learned, conclusion:
-  https://cedozie.github.io/Bellabeat-Device-Consumer-Behaviour-Analysis/Bellabeat_Device_Consumer_Behaviour_Analysis_Report.html
+    https://cedozie.github.io/Bellabeat-Device-Consumer-Behaviour-Analysis/Bellabeat_Device_Consumer_Behaviour_Analysis_Report.html
 
 ### Skills Demonstrated
 - Data cleaning and transformation with dplyr
